@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Application/Application.csproj" />
+  <Project Path="Common/Common.csproj" />
+  <Project Path="Domain/Domain.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Persistence/Persistence.csproj" />
+  <Project Path="Presentation/Presentation.csproj" />
+  <Project Path="Service/Service.csproj" />
+  <Project Path="Specification/Specification.csproj" />
+</Solution>

@@ -1,4 +1,4 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Collections.Generic;
 
@@ -11,8 +11,8 @@ namespace CleanArchitecture.Service
         public void Apply(OpenApiDocument swaggerDoc, DocumentFilterContext context)
         {
             var paths = swaggerDoc.Paths;
-         
-            var newPaths = new Dictionary<string, OpenApiPathItem>();
+
+            var newPaths = new Dictionary<string, IOpenApiPathItem>();
 
             var removeKeys = new List<string>();
 
